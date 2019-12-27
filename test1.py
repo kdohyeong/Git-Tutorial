@@ -9,3 +9,6 @@ def sub(a ,b):
 print sub(5,9)
 
 print sub(9,9)
+
+def mul(a,b):
+    return a * b
