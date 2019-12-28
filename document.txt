@@ -24,3 +24,17 @@ git branch "브런치명"
 git checkout "브런치명" 브런치 이동
 git merge 브런치 합치기후 push
 git branch -d "브런치명" 브런치 지우기 
+
+2. 브런치 충돌 해결방법
+
+develop 브런치를 만듬
+작업하고 커밋함
+master 브런치로 이동
+주석을 달음
+커밋함
+develop 브런치의 commit과 master 브런치 commit 이 다름
+수정한 파일을 다시열면 두가지 다 나오는데 둘중에 골라서 수정 후 저장
+master 브런치에서 다시 add commit 후 merge develop 실행
+-d "브런치명"으로 develop 제거.
+
+
