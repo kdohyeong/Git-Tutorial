@@ -48,3 +48,9 @@ git remote -v 전체 목록 확인
 git remote rm temp 원격 저장소 삭제
 git log origin/master  특정 원격 저장소 로그 확인
 
+4.
+git log --stat  데이터양도 확인가능
+git log -p -3  개수별로 확인
+git log --pretty=oneline  한줄로 파악가능하게끔
+git log --pretty=format:"%h -> %an , %ar : %s" --graph   
+%h 해시값  %an 작성자이름 %ar 작성일 %s commit 주제
