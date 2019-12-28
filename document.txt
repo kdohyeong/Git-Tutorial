@@ -25,7 +25,8 @@ git checkout "브런치명" 브런치 이동
 git merge 브런치 합치기후 push
 git branch -d "브런치명" 브런치 지우기 
 
-2. 브런치 충돌 해결방법
+2. 
+브런치 충돌 해결방법
 
 develop 브런치를 만듬
 작업하고 커밋함
@@ -37,4 +38,13 @@ develop 브런치의 commit과 master 브런치 commit 이 다름
 master 브런치에서 다시 add commit 후 merge develop 실행
 -d "브런치명"으로 develop 제거.
 
+
+3.
+git remote  원격 저장소 확인
+git remote show origin  상세 내용 확인
+git remote add https://github.com/kdohyeong/kdohyeong.git 원격 저장소 등록
+git remote rename test temp  원격 저장소 이름 명령
+git remote -v 전체 목록 확인
+git remote rm temp 원격 저장소 삭제
+git log origin/master  특정 원격 저장소 로그 확인
 
